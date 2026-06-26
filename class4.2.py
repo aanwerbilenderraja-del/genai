@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 from google import genai
 from google.genai import types
 config = types.GenerateContentConfig(
@@ -24,7 +24,7 @@ response_placeholder = st.empty()
 question = st.text_input("", placeholder="Enter your Python question here...")
 col1, col2, col3 = st.columns([4, 1, 4])
 with col2:
-  send =st.button("Send")
+  send =st.button ("Send")
 if send:
   response = mychat.send_message(question)
   response_placeholder.write(response.text)
