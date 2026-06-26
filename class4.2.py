@@ -25,11 +25,11 @@ Create a file:
 .streamlit/secrets.toml
 
 Add:
-GOOGLE_API_KEY = "GOOGLE_API_KEY"
+GOOGLE_API_KEY = "YOUR_API_KEY"
 
 If you are using Streamlit Cloud:
 Go to App Settings → Secrets and add:
-GOOGLE_API_KEY = "GOOGLE_API_KEY"
+GOOGLE_API_KEY = "YOUR_API_KEY"
 """)
     st.stop()
 
